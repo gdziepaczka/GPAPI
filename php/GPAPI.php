@@ -48,7 +48,6 @@ class GPAPI
 		'PACKAGE_MISSING' => 'Brak numeru paczki',
 		'PACKAGE_INVALID' => 'Niepoprawny numer paczki',
 		'PACKAGE_NOT_FOUND' => 'Paczka nie została znaleziona',
-		'REQUEST_TIMEOUT' => 'Przekroczono limit żądania',
 		'NO_PERMISSION' => 'Brak uprawnień do wykonania żądania',
 	);
 	
