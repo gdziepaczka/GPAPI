@@ -1,0 +1,4 @@
+GPAPI
+=====
+
+GdziePaczka.pl API
