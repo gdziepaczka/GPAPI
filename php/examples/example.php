@@ -3,7 +3,7 @@ require('../GPAPI.php');
 
 try
 {
-	$package = new GdziePaczka(); // inicjalizacja klasy
+	$package = new GPAPI(); // inicjalizacja klasy
 	
 	// tablica parametrow
 	$params = array(
