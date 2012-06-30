@@ -52,11 +52,6 @@ class GPAPI
 	);
 	
 	/**
-	* @desc Kod błędu
-	*/
-	protected $requestError;
-	
-	/**
 	* @desc Odpowiedź
 	*/
 	protected $response;
@@ -65,11 +60,6 @@ class GPAPI
 	* @desc Informacje o odpowiedzi
 	*/
 	protected $info;
-	
-	/**
-	* @desc Token użytkownika
-	*/
-	private $token;
 	
 	/**
 	* @desc Inicjalizacja
@@ -188,7 +178,7 @@ class GPAPI
 		
 		if ($xml === false)
 		{
-			throw new GPAPIException('Not valid XML response');
+			throw new GPAPIException('Nieprawidłowa odpowiedź w formacie XML');
 		}
 		
 		return $this->xml2array($xml);
