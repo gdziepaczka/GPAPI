@@ -30,7 +30,7 @@ class GPAPI
 	/**
 	* @desc Zasób API
 	*/
-	protected $api = 'http://www.gdziepaczka.pl/api/package.php';
+	protected $api = 'http://api.gdziepaczka.pl/package.php';
 	
 	/**
 	* @desc Czas odpowiedzi
