@@ -17,7 +17,7 @@ Lesser General Public License for more details.
 
 /**
 * @author       GdziePaczka.pl
-* @copyright    Copyright © 2012, GdziePaczka.pl
+* @copyright    Copyright © 2013, GdziePaczka.pl
 * @license      Licenced for use under the LGPL. See http://www.gnu.org/licenses/lgpl-3.0.txt
 */
 class GPAPI
@@ -25,12 +25,12 @@ class GPAPI
 	/**
 	* @desc Wersja
 	*/
-	const VERSION = '1.0';
+	const VERSION = '2.0';
 	
 	/**
 	* @desc Zasób API
 	*/
-	protected $api = 'http://api.gdziepaczka.pl/package.php';
+	protected $api = 'http://api.gdziepaczka.pl/';
 	
 	/**
 	* @desc Czas odpowiedzi
@@ -41,14 +41,16 @@ class GPAPI
 	* @desc Możliwe kody błędu
 	*/
 	public $errorCodes = array(
-		'COURIER_INVALID' => 'Niepoprawny identyfikator kuriera',
-		'COURIER_MISSING' => 'Brak kuriera',
-		'TOKEN_MISSING' => 'Brak tokena',
-		'TOKEN_INVALID' => 'Niepoprawny token',
-		'PACKAGE_MISSING' => 'Brak numeru paczki',
-		'PACKAGE_INVALID' => 'Niepoprawny numer paczki',
-		'PACKAGE_NOT_FOUND' => 'Paczka nie została znaleziona',
-		'NO_PERMISSION' => 'Brak uprawnień do wykonania żądania',
+		'MODE_MISSING_OR_NOT_DEFINED'	=> 'Niezdefiniowana / brak określonej metody',
+		'COURIER_INVALID' 				=> 'Niepoprawny identyfikator kuriera',
+		'COURIER_MISSING' 				=> 'Brak kuriera',
+		'TOKEN_MISSING' 				=> 'Brak tokena',
+		'TOKEN_INVALID' 				=> 'Niepoprawny token',
+		'PACKAGE_MISSING' 				=> 'Brak numeru paczki',
+		'PACKAGE_INVALID' 				=> 'Niepoprawny numer paczki',
+		'PACKAGE_NOT_FOUND' 			=> 'Paczka nie została znaleziona',
+		'NO_PACKAGES'					=> 'Brak przesyłek spełniających podane kryteria',
+		'NO_PERMISSION' 				=> 'Brak uprawnień do wykonania żądania (skontaktuj się z nami w celu wyjaśnienia zaistniałej sytuacji)',
 	);
 	
 	/**

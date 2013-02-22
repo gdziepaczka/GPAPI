@@ -1,5 +1,5 @@
 GdziePaczka.pl API
 =====
-Więcej informacji: http://www.gdziepaczka.pl/api.html
+Więcej informacji: http://www.gdziepaczka.pl/narzedzia.html
 
-Copyright © 2012, GdziePaczka.pl
+Copyright © 2013, GdziePaczka.pl
